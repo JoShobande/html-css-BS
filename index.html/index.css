@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    color: white;
+}
+
+/* Header */
+.background{
+    background-color: #1cbcb4;   
+}
+
+ nav{
+    margin-left: auto;
+    list-style: none;
+}
+.nav  li{
+    display: inline;
+    padding: 10px;   
+}
+
+ a{
+    text-decoration: none;
+}
+ a:hover{
+    color:black;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    padding: 30px;    
+}
+
+#talkcube{
+    margin-top: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#main-body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+}
+.margin{
+    margin-top:200px;
+}
+
+/* form */
+.form{
+    width: 300px;
+    background: white;
+    height: 300px;
+    float: right;
+    margin-top: -45px;
+}
+.form-header{
+    background-color: #1cbcb4;
+    height: 45px;
+    text-align: center;
+}
+.form-header p{
+    padding-top: 14px
+}
+
+form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #1cbcb4;
+    width: 200px;
+    padding: 10px;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+
+ button{
+    width: 200px;
+    height: 35px;
+    background-color: #1cbcb4;
+    border: none;
+    border-radius: 5px;
+}
+
+.reg{
+    width: 30%;
+}
+
+.container2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* body text */
+
+em{
+    color: rgb(245, 245, 119);
+}
+
+.text{
+    width: 70%;
+    font-size: 50px;
+
+}
+
+.text button{
+    height: 50px;
+    font-size: 20px;
+
+}
+
+.text img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+@media(max-width: 830px){
+    .text{
+        width: 100%;
+    }
+    .reg{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flex{
+        display: block
+    }
+    .form{
+        margin-top: 20px;
+        float: left;    
+    }
+    nav{
+        margin-left: -13px;
+    }
+    
+}
+
+

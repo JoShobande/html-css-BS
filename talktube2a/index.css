@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    color: white;
+}
+
+/* Header */
+.background{
+    background-color: #1cbcb4;   
+}
+
+ nav{
+    margin-left: auto;
+    list-style: none;
+}
+.nav  li{
+    margin-top: 12px;
+    margin-right: 45px;
+}
+
+ a{
+    text-decoration: none;
+}
+ a:hover{
+    color:black;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    padding: 30px;    
+}
+
+#talkcube{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* first column */
+
+ul li{
+    padding: 10px;
+}
+
+.whole-col{
+    width: 20%;
+    background: #454545;
+    height: 100vh;
+}
+
+.col1{
+    width: 60%;
+    padding-left: 10px;
+}
+
+
+.absolute{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+
+}
+.absolute2{
+    position: absolute;
+    margin: 6px;
+    margin-left: -70px;
+    
+}
+
+
+/* 2nd column */
+.flex-width{
+    width: 500px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+.img-width{
+    width: 50px;
+    float: right;
+   
+   
+}
+.text-width{
+    width:430px;
+    display: inline-block;
+}
+
+.text-align{
+    text-align: right;
+}
+
+.chat-padding{
+    padding-top: 15px;
+    padding-left: 15px; 
+}
+.cube-pading{
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+.whole-padding{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.right-padding{
+    padding-right: 20px;
+}
+.center{
+    position: fixed;
+    bottom: 10px;
+    
+    right: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+input{
+    
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background-image: url("./images/send-button.png");
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+
+
+
+
+
+/* general */
+
+.inline{
+    display: inline;
+}
+
+.black-text{
+    color:black;
+}
+.border-bottom{
+    border-bottom: 1px solid grey;
+    margin-left: 14px;
+
+}
+
+.color{
+    color: #1cbcb4;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+.margin-top2{
+    margin-top: 80px
+}
+.margin-left{
+    margin-left: 5px;
+}
+.padding-top{
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    padding: 0;
+    height: 70px;
+}
+.margin-top3{
+    margin-top: 80px
+}
+.text-margin2{
+    margin-top: 7px;
+    margin-right: 5px;
+
+}
+.float{
+    float: right;
+    margin-right: 20px;
+}
+.width{
+    width: 100%;
+    
+    
+}
+/* .text-margin3{
+    margin-right: 20px
+} */
+
+@media(max-width: 890px){
+    .whole-col{
+        width: 60%
+    }
+    .col1{
+        width: 80%
+    }
+
+    
+
+}
+
